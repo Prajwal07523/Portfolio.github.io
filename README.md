@@ -11,9 +11,8 @@
 
 * * *
 
-> A step towards better e-commerce management
+> A step towards better Quick e-commerce management
 >
-> PH
 
 #### Note:
 This page hosts:
