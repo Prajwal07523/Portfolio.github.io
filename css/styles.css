@@ -50,16 +50,11 @@ main {
     padding: 20px;
     max-width: 70%; /* Ensure main content width is 70% */
     margin: 0 auto; /* Center the main content */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .post {
-    width: calc(50% - 10px); /* Each post takes up 50% of the container width minus margin */
-    margin-bottom: 20px;
     display: flex;
-    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .thumbnail {
@@ -69,7 +64,7 @@ main {
 }
 
 .post-content {
-    flex: 1; /* Take remaining space */
+    flex: 1;
 }
 
 h2 {
@@ -94,6 +89,7 @@ p {
     font-size: 18px; /* Adjust as needed */
     line-height: 1.6;
 }
+
 
 
 
