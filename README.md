@@ -28,12 +28,10 @@
     <h3>Note:</h3>
     <p>This page hosts:</p>
     <ul>
-        <li><a href="introduction.html">Introduction</a></li>
-        <li><a href="why-portfolio.html">Why Portfolio</a></li>
-        <li><a href="objectives.html">Objectives</a></li>
-        <li><a href="design.html">Design</a></li>
-        <li><a href="challenges.html">Challenges</a></li>
-        <li><a href="to-do.html">To-Do</a></li>
+        <li><a href="pages/Home.html">Introduction</a></li>
+        <li><a href="pages/Bussiness_cases.html">Business cases</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/Contact.html">Contact</a></li>
     </ul>
 </body>
 </html>
