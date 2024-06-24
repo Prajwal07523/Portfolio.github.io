@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+header {
+    color: black;
+    padding: 1rem 0;
+    text-align: center;
+
+    max-width: 70%; /* Ensure header width is 70% */
+    margin: 0 auto; /* Center the header */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav {
+    max-width: 70%; /* Ensure nav width is 70% */
+    margin: 0 auto; /* Center the nav */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
+    text-align: right; /* Aligns the text to the right */
+
+}
+
+nav ul li {
+    display: inline; /* Changes from float to inline */
+}
+
+nav ul li a {
+    display: inline-block; /* Changes from block to inline-block */
+    color:black;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+
+}
