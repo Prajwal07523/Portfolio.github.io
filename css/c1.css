@@ -4,14 +4,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-
+    
 }
 
 header {
     color: black;
     padding: 1rem 0;
     text-align: center;
-
+  
     max-width: 70%; /* Ensure header width is 70% */
     margin: 0 auto; /* Center the header */
     font-family: 'Times New Roman', Times, serif;
@@ -28,7 +28,7 @@ nav ul {
     overflow: hidden;
     margin: 0;
     text-align: right; /* Aligns the text to the right */
-
+   
 }
 
 nav ul li {
@@ -41,72 +41,88 @@ nav ul li a {
     padding: 14px 20px;
     text-align: center;
     text-decoration: none;
-
+    
 }
 
 
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 main {
-    padding: 20px;
-    max-width: 70%; /* Ensure main content width is 70% */
-    margin: 0 auto; /* Center the main content */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 65%;
 }
 
-.post {
-    width: calc(50% - 10px); /* Each post takes up 50% of the container width minus margin */
+main section {
+    display: flex;
     margin-bottom: 20px;
-    display: flex;
-    align-items: flex-start;
 }
 
-.thumbnail {
+main section .thumbnail {
+    margin-right: 10px;
     width: 150px;
     height: auto;
-    margin-right: 10px;
 }
 
-.post-content {
-    flex: 1; /* Take remaining space */
-}
-
-h2 {
+main h2 {
     color: black;
-    font-size: 24px; /* Adjust as needed */
 }
 
-h2:hover {
+main h2:hover {
     color: #333;
 }
 
-h2 a {
+main h2 a {
     color: black;
     text-decoration: none;
+    
 }
 
-h2 a:hover {
+main h2 a:hover {
     color: aquamarine;
+  
 }
 
-p {
-    font-size: 18px; /* Adjust as needed */
-    line-height: 1.6;
+aside {
+    width: 30%;
+    padding-left: 20px;
 }
 
+aside h2 {
+    color: #333;
+}
 
+aside ol {
+    padding-left: 20px;
+}
+
+aside ol li a {
+    text-decoration: none;
+    color: #333;
+}
+
+aside ol li a:hover {
+    text-decoration: underline;
+}
 
 footer {
     text-align: center;
     padding: 1rem 0;
-    color:black;
+    color: black;
     position: relative;
     width: 100%;
     bottom: 0;
-    max-width: 70%; /* Ensure footer width is 70% */
-    margin: 0 auto; /* Center the footer */
+    max-width: 70%;
+    margin: 0 auto;
 }
+
+
 
 form {
     background: #fff;
