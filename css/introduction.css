@@ -4,14 +4,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    font-size: 36px; /* Keeping the increased font size */
+    
 }
 
 header {
     color: black;
     padding: 1rem 0;
     text-align: center;
-    font-size: 40px; /* Keeping the increased font size */
+  
     max-width: 70%; /* Ensure header width is 70% */
     margin: 0 auto; /* Center the header */
     font-family: 'Times New Roman', Times, serif;
@@ -28,7 +28,7 @@ nav ul {
     overflow: hidden;
     margin: 0;
     text-align: right; /* Aligns the text to the right */
-    font-size: 30px; /* Keeping the increased font size */
+   
 }
 
 nav ul li {
@@ -41,21 +41,19 @@ nav ul li a {
     padding: 14px 20px;
     text-align: center;
     text-decoration: none;
-    font-size: 50px; /* Keeping the increased font size */
+    
 }
 
 
 
 main {
     padding: 20px;
-    font-size: 30px; /* Keeping the increased font size */
     max-width: 70%; /* Ensure main content width is 70% */
     margin: 0 auto; /* Center the main content */
 }
 
 h2 {
     color: #333;
-    font-size: 80px; /* Keeping the increased font size */
 }
 
 footer {
@@ -65,11 +63,8 @@ footer {
     position: relative;
     width: 100%;
     bottom: 0;
-    font-size: 18px; /* Keeping the increased font size */
     max-width: 70%; /* Ensure footer width is 70% */
     margin: 0 auto; /* Center the footer */
 }
 
-p {
-    font-size: 45px; /* Keeping the increased font size */
-}
+
