@@ -10,7 +10,39 @@
     <header>
         <h1>Inventory Management</h1>
     </header>
-   
+    <main class="business">
+        <p>For fast e-commerce sites like Blinkit, Zepto, and Swiggy Instamart, effective inventory management is essential. Utilizing data structures like balanced trees (like AVL or Red-Black Trees) and hash tables can greatly improve the accuracy and efficiency of inventory procedures. Fast lookups, updates, and maintenance of sorted inventory data are made possible by these data structures, and they are crucial for real-time inventory management.</p>
+        <div>
+            <h2>1. Hash Tables for Fast Lookup</h2>
+            <p>
+                Hash tables provide constant time complexity O(1) for search, insert, and delete operations, making them ideal for quick lookups of product information. 
+                Each product can be assigned a unique key, which is used to index the product details in the hash table.
+                When a customer searches for a product, the system can instantly retrieve the product details from the hash table using the key, ensuring minimal latency.When inserting a new product, the system computes the hash of the product key to determine the array index.Deleting a product involves computing the hash to locate the array index and removing the product details.
+                <br>
+                To maintain O(1) time complexity, it is important to manage the load factor of the hash table, which is the ratio of the number of stored elements to the size of the array. When the load factor exceeds a certain threshold, the hash table should be resized (typically doubled) and rehashed to maintain efficiency.
+            </p>
+            <p>
+                The code is provided on GitHub: <a href="https://github.com/Prajwal07523/Portfolio.github.io/tree/main/codes/hash_table.cpp">github link</a>
+            </p>
+        </div>
+
+        <div>
+            <h2>2.AVL Trees for Maintaining Sorted Inventory</h2>
+            <p> Balanced trees like AVL trees maintain a sorted order of the inventory, which is essential for operations that require sorted data, such as range queries and generating inventory reports.
+            AVL trees are a type of self-balancing binary search tree where the height difference (balance factor) between the left and right subtrees of any node is at most one. This ensures the tree remains approximately balanced, providing O(logn) time complexity for search, insert, and delete operations.
+            When a product is added, it is inserted into the AVL tree following the standard binary search tree insertion process. After insertion, the tree is checked for balance. If the balance factor of any node is violated, rotations are performed to restore balance.
+            Searching for a product involves traversing the tree based on the comparison of the search key with the node keys, ensuring O(logn) time complexity.
+            Deletion in an AVL tree involves removing the node and then checking the balance of the tree.
+            <br>
+            The primary advantage of AVL trees is their strict balance, which guarantees O(logn) time complexity for all operations
+            </p>
+            The code is provided on GitHub: <a href="https://github.com/Prajwal07523/Portfolio.github.io/tree/main/codes/AVL_Tree.cpp.cpp">github link</a>
+        </p>
+        </div>
+        
+       
+
+    </main>
     
 </body>
 </html>

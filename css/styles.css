@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-
+   
 }
 
 header {
@@ -15,11 +15,13 @@ header {
     max-width: 70%; /* Ensure header width is 70% */
     margin: 0 auto; /* Center the header */
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
 nav {
     max-width: 70%; /* Ensure nav width is 70% */
     margin: 0 auto; /* Center the nav */
+    
 }
 
 nav ul {
@@ -44,14 +46,20 @@ nav ul li a {
 
 }
 
-
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 main {
     padding: 20px;
     max-width: 70%; /* Ensure main content width is 70% */
     margin: 0 auto; /* Center the main content */
+    background-color: #fafafa;
 }
 
+.business{
+  background-color: aqua;
+}
 .post {
     display: flex;
     margin-bottom: 20px;
@@ -68,7 +76,7 @@ main {
 }
 
 h2 {
-    color: black;
+    color:rgb(227, 5, 5);
     font-size: 24px; /* Adjust as needed */
 }
 
