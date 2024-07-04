@@ -10,7 +10,30 @@
     <header>
         <h1>Efficient Product Search</h1>
     </header>
-   
+   <main class="business">
+      <p>
+        Speedy e-commerce platforms like Blinkit, Zepto, and Swiggy Instamart rely on effective search engines to provide speedy and precise product lookups. Because they enable effective prefix-based searching—which is necessary for auto-complete and search suggestions—data structures like Trie and Ternary Search Trees (TST) are especially well-suited for this task.
+      </p>
+      <div>
+        <h2>1.Trie for Prefix-Based Searching</h2>
+        <p>
+            A Trie is a tree-like data structure that stores a dynamic set of strings, where the keys are usually strings. Tries are particularly efficient for prefix-based searches, which are common in search engines and auto-complete features.Each node in a Trie represents a single character of a string.The root node is empty and each subsequent level represents characters of strings.Words or product names are represented by paths from the root to a terminal node.
+            Inserting a product name involves starting from the root node and creating child nodes for each character in the product name that does not already exist in the Trie. This operation has a time complexity of O(L), where L is the length of the word.
+            Searching for a product involves traversing the Trie nodes according to the characters of the search string.
+            For auto-complete functionality, once the prefix is located in the Trie, a depth-first search (DFS) can be performed to find all words that start with the given prefix.
+        </p>
+      </div>
+
+      <div>
+        <h2>2.Ternary Search Trees</h2>
+        <p>
+          A ternary search tree is a special trie data structure where the child nodes of a standard trie are ordered as a binary search tree.Each node in a TST has three children: a low child, an equal child, and a high child.The low child contains characters less than the current node's character, the high child contains characters greater than the current node's character, and the equal child contains the next character in the word.
+          Inserting a product name in a TST involves placing each character in the appropriate child node. This operation has a time complexity of O(LlogN), where N is the number of nodes.
+          Searching for a product involves traversing the TST according to the search string characters, with comparisons made at each node. The search operation has a time complexity of O(LlogN).
+          High memory use can result from Tries and TSTs having to handle a potentially huge number of product names. This problem can be lessened with effective memory management and techniques like compressing the Trie or employing a hybrid strategy.
+        </p>
+      </div>
+   </main>
     
 </body>
 </html>
