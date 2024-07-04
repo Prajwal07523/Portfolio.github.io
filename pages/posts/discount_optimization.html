@@ -11,7 +11,25 @@
         <h1>Promotion and Discount Optimization</h1>
     </header>
     <main class="business">
-        Hi
+        <p>    For rapid e-commerce platforms like Blinkit, Zepto, and Swiggy Instamart, it is essential to implement algorithms for maximizing promotions and discounts. The objective is to target the right people and items with the best promotions in order to maximize sales while retaining profitability. The best discount plans and promotion schedules can be found by applying tactics like greedy algorithms, dynamic programming, and decision trees.</p>
+        <div>
+            <h2>Dynamic Programming for Discount Allocation</h2>
+            <p>To determine the optimal set of discounts to apply to products to maximize total sales while staying within a budget.Define a state dp[i][j] where i is the number of products considered and j is the remaining budget.dp[i][j] stores the maximum profit achievable by considering the first i products with a budget of j.Initialize dp[0][j] = 0 for all j, meaning no profit with zero products.
+            Iterate over products and budget, updating the dp array to reflect the maximum profit achievable.
+            For each product, decide whether to apply a discount based on potential profit increase and budget constraints.</p>
+            <p>
+                The code is provided on GitHub: <a href="https://github.com/Prajwal07523/Portfolio.github.io/main/codes/hash table.cpp">github link</a>
+            </p>
+        </div>
+
+        <div>
+            <h2>Greedy Algorithm for Promotion Scheduling</h2>
+            <p>To schedule promotions in a way that maximizes customer engagement and sales.Sort promotions based on their effectiveness.Use a priority queue to manage promotion schedules, ensuring that the most effective promotions are scheduled first.
+            Sort promotions by expected sales increase. Iterate through promotions, adding them to the schedule if they do not overlap with already scheduled promotions and if they fit within the time constraints. </p>
+            <p>The code is provided on GitHub: <a href="https://github.com/Prajwal07523/Portfolio.github.io/main/codes/AVL_Tree.cpp">github link</a> </p>
+        </div>
     </main>
+
+
 </body>
 </html>
